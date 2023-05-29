@@ -55,9 +55,9 @@ void loop()
         potValueA = potValueA / numberOfPotSamples;
         potValueB = potValueB / numberOfPotSamples;
         // Map analog reading from 0 ~ 4095 to 32737 ~ 0 for use as an axis reading
-        int adjustedValueS = map(potValueS, 0, 4095, 32737, 0);
-        int adjustedValueA = map(potValueA, 0, 4095, 32737, 0);
-        int adjustedValueB = map(potValueB, 0, 4095, 32737, 0);
+       int adjustedValueS = map(potValueS, 0, 4095, 32737, 0);
+       int adjustedValueA = map(potValueA, 0, 3000, 32000, 0);
+       int adjustedValueB = map(potValueB, 1000, 3000, 32000, 0);
         // Update X axis and auto-send report
         bleGamepad.setY(32737/2);
         bleGamepad.setX(adjustedValueS);
