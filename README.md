@@ -17,4 +17,4 @@ Outcome:
 •	Increased user engagement and enjoyment by seamlessly integrating physical input devices.
 •	Demonstrated the potential of bridging reality and virtual gaming for an enhanced user experience.
 
-![Uploading IMG20230529154152.jpg…]()
+
